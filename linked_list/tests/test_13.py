@@ -66,7 +66,7 @@ def test_empty_linked_list_has_length_property_of_zero():
     list = LinkedList()
     assert hasattr(list, "length")
     assert list.length == 0
-    
+
 
 def test_length_property_increases_with_each_insert():
     from linked_list import LinkedList

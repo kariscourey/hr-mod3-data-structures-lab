@@ -64,4 +64,3 @@ def test_empty_linked_list_has_length_property_of_zero():
     list = LinkedList()
     assert hasattr(list, "length")
     assert list.length == 0
-    
